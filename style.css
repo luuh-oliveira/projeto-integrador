@@ -9,6 +9,7 @@ body{
     flex-direction: column;
     width: 98.7vw;
     height: 700vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -82,10 +83,6 @@ h1{
     font-size: 80px;
     max-width: 700px;
     user-select: none;
-}
-
-footer, header, .fpoo, .lima, .sop{
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .fpoo{
@@ -204,6 +201,15 @@ img{
     top: 20px;
 }
 
+.hare{
+    margin-top: -20px;
+    background-color: rgb(252, 225, 226);
+}
+
+.hare h2{
+    position: relative;
+    top: 20px;
+}
 
 
 
