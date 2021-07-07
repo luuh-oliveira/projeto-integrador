@@ -3,11 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     display: flex;
     flex-direction: column;
     width: 98.7vw;
-    height: 400vh;
+    height: 700vh;
 }
 
 header{
@@ -83,7 +84,7 @@ h1{
     user-select: none;
 }
 
-.fpoo, .lima{
+footer, header, .fpoo, .lima, .sop{
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -108,11 +109,11 @@ h3{
     padding-left: 20px;
 }
 
-.fpoo p{
+p{
     font-size: 20px;
 }
 
-.textoFpoo1, .textoLima1{
+.textoFpoo1, .textoLima1, .textoSop1{
     margin-top: 30px;
     padding-left: 20px;
 }
@@ -171,12 +172,14 @@ img{
     top: 25px;
 }
 
-.textoLima1, .textoLima2{
+.textoLima1, .textoLima2, .textoSop1{
     max-width: 1300px;
 }
 
 .imgLima{
     margin-top: 40px;
+    position: relative;
+    bottom: 20px;
 }
 
 .lima1{
@@ -191,7 +194,15 @@ img{
     left: 500px;
 }
 
+.sop{
+    margin-top: -20px;
+    background-color: rgb(210, 250, 210);
+}
 
+.sop h2{
+    position: relative;
+    top: 20px;
+}
 
 
 
@@ -199,7 +210,7 @@ img{
 footer{
     display: flex;
     position: relative;
-    bottom: -1000px;
+    bottom: -2000px;
     background-color: black;
     height: 70px;
     justify-content: center;
