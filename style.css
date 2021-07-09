@@ -15,7 +15,7 @@ html{
 body{
     display: flex;
     flex-direction: column;
-    width: 98.7vw;
+    width: 98.77vw;
     height: 700vh;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -60,7 +60,6 @@ header{
     align-items: center;
     position: relative;
     left: 600px;
-
 }
 
 .botao a{
@@ -70,7 +69,7 @@ header{
 
 main{
     height: 190vh;
-    background-color: rgb(212, 255, 241);
+    background-color: whitesmoke;
 
 }
 
@@ -94,7 +93,7 @@ h1{
 }
 
 .fpoo{
-    background-color: rgb(212, 255, 241);
+    background-color:whitesmoke;
 }
 
 h2{
@@ -118,15 +117,6 @@ p{
     font-size: 20px;
 }
 
-.textoFpoo1, .textoLima1, .textoSop1{
-    margin-top: 30px;
-    padding-left: 20px;
-}
-
-.textoFpoo1{
-    max-width: 400px;
-}
-
 h4{
     margin-top: 40px;
     font-size: 25px;
@@ -134,42 +124,57 @@ h4{
     padding-left: 20px;
 }
 
-.textoFpoo2, .textoLima2{
-    margin-top: 20px;
-    padding-left: 20px;
-    margin-bottom: 20px;
+.h4Fpoo1{
+    margin-top: 60px;
+    margin-left: 200px;
 }
+
+.h4Fpoo2{
+    margin-top: -277px;
+    margin-left: 770px;
+    margin-bottom: 35px;
+}
+
+.textoFpoo1{
+    max-width: 450px;
+    margin-top: 40px;
+    margin-left: 220px;
+    padding-right: 100px;
+    border-right: solid 3px black;
+}
+
 
 .textoFpoo2{
     max-width: 400px;
+    margin-top: 18px;
+    margin-left: 770px;
+    padding-left: 20px;
 }
 
 img{
     user-select: none;
 }
 
-.img{
-    width: 100%;
-    height: 30px;
+.imgFpoo{
+    margin-top: 30px;
 }
 
 .java1{
-    width: 25%;
-    position: relative;
-    left: 900px;
-    top: -650px;
+    width: 21%;
+    margin-bottom: 40px;
+    margin-left: 220px;
+    
 }
 
 .java2{
-    width: 30%;
-    position: relative;
-    top: -300px;
-    left: 500px;
+    width: 28%;
+    margin-bottom: 40px;
+    margin-left: 280px;
 }
 
 .lima{
     margin-top: -20px;
-    background-color: rgb(253, 246, 180);
+    background-color: rgb(202, 207, 205);
 }
 
 .lima h2{
@@ -177,9 +182,16 @@ img{
     top: 25px;
 }
 
+
 .textoLima1, .textoLima2, .textoSop1{
     max-width: 1300px;
 }
+
+.textoLima1, .textoSop1{
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
 
 .imgLima{
     margin-top: 40px;
@@ -199,9 +211,15 @@ img{
     left: 500px;
 }
 
+.textoLima2{
+    margin-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
 .sop{
     margin-top: -20px;
-    background-color: rgb(210, 250, 210);
+    background-color: whitesmoke;
 }
 
 .sop h2{
@@ -211,7 +229,7 @@ img{
 
 .hare{
     margin-top: -20px;
-    background-color: rgb(252, 225, 226);
+    background-color: rgb(202, 207, 205);
 }
 
 .hare h2{
