@@ -92,10 +92,6 @@ h1{
     user-select: none;
 }
 
-.fpoo{
-    background-color:whitesmoke;
-}
-
 h2{
     display: flex;
     justify-content: center;
@@ -124,6 +120,14 @@ h4{
     padding-left: 20px;
 }
 
+img{
+    user-select: none;
+}
+
+.fpoo{
+    background-color:whitesmoke;
+}
+
 .h4Fpoo1{
     margin-top: 60px;
     margin-left: 200px;
@@ -143,16 +147,11 @@ h4{
     border-right: solid 3px black;
 }
 
-
 .textoFpoo2{
     max-width: 400px;
     margin-top: 18px;
     margin-left: 770px;
     padding-left: 20px;
-}
-
-img{
-    user-select: none;
 }
 
 .imgFpoo{
@@ -182,9 +181,14 @@ img{
     top: 25px;
 }
 
+.lima h4{
+    margin-top: 70px;
+}
 
-.textoLima1, .textoLima2, .textoSop1{
-    max-width: 1300px;
+.textoLima1{
+    max-width: 800px;
+    padding-right: 100px;
+    border-right: solid 3px black;
 }
 
 .textoLima1, .textoSop1{
@@ -192,29 +196,26 @@ img{
     padding-left: 20px;
 }
 
-
-.imgLima{
-    margin-top: 40px;
-    position: relative;
-    bottom: 20px;
+.textoLima2{
+    max-width: 800px;
+    margin-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    padding-right: 100px;
+    border-right: solid 3px black;
 }
 
 .lima1{
     width: 28%;
-    position: relative;
-    left: 60px;
+    margin-left: 900px;
+    margin-top: -240px;
 }
 
 .lima2{
     width: 30%;
-    position: relative;
-    left: 500px;
-}
-
-.textoLima2{
-    margin-top: 20px;
-    padding-left: 20px;
-    margin-bottom: 20px;
+    margin-left: 890px;
+    margin-top: -240px;
+    margin-bottom: 30px;
 }
 
 .sop{
@@ -225,6 +226,10 @@ img{
 .sop h2{
     position: relative;
     top: 20px;
+}
+
+.textoSop1{
+    max-width: 1300px;
 }
 
 .hare{
