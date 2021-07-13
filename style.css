@@ -24,7 +24,9 @@ header{
     display: flex;
     background-color: black;
     height: 60px;
+    width: 100%;
     align-items: center;
+    position: fixed;
 }
 
 .logoSenai{
@@ -79,17 +81,22 @@ main{
     background-blend-mode: darken;
     background-image: url(img/desenvolvimento.jpg);
     background-size: cover;
-    height: 620px;
+    height: 670px;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    color: white;
 }
 
 h1{
-    color: white;
     font-family: 'Libre Baskerville', serif;
     font-size: 80px;
     max-width: 700px;
     user-select: none;
+}
+
+.primeiraDiv p{
+    margin-top: 30px;
 }
 
 h2{
@@ -133,7 +140,7 @@ img{
 }
 
 .h4Fpoo2{
-    margin-top: -277px;
+    margin-top: -435px;
     margin-left: 770px;
     margin-bottom: 35px;
 }
@@ -151,6 +158,7 @@ img{
     margin-top: 18px;
     margin-left: 770px;
     padding-left: 20px;
+    margin-bottom: 70px;
 }
 
 .imgFpoo{
