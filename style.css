@@ -260,12 +260,17 @@ img{
     max-width: 100px;
 }
 
+.introHare{
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
 .hareBloco1{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 90px;
     width: 1300px;
     border-top: solid 3px black;
     margin-left: 30px;
@@ -289,7 +294,12 @@ img{
 }
 
 .hare p{
+    max-width: 1300px;
+}
+
+.textHare{
     max-width: 800px;
+    font-size: 17px;
 }
 
 .hare1{
